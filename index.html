@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merve'nin Portföyü</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('yazilim-temali.jpg') no-repeat center center fixed; /* Yazılım temalı arka plan */
+            background-size: cover;
+            color: #2C3E50;
+            scroll-behavior: smooth;
+        }
+        nav {
+            background-color: #2C3E50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #ECF0F1;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #1ABC9C;
+        }
+        .hero {
+            text-align: center;
+            padding: 150px 20px;
+            color: white;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 22px;
+        }
+        .section {
+            padding: 60px 20px;
+            background-color: rgba(199, 221, 227, 0.9);
+            border-radius: 10px;
+            margin: 40px auto;
+            max-width: 1100px;
+        }
+        h2 {
+            border-bottom: 3px solid #1f0222;
+            padding-bottom: 5px;
+            color: #2C3E50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #080337;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        li:hover {
+            background-color: #1ABC9C;
+        }
+        .certificate-container {
+            display: flex;
+            flex-wrap: wrap; /* Resimlerin yan yana gelmesini sağlar */
+            justify-content: center; /* Ortalamak için */
+        }
+        .certificate-image {
+            width: 150px; /* Resimlerin genişliği */
+            height: 150px; /* Resimlerin yüksekliği */
+            border-radius: 10px;
+            transition: transform 0.3s; 
+            margin: 10px; /* Resimler arası boşluk */
+        }
+        .certificate-image:hover {
+            transform: scale(2); /* Büyütme efekti artırıldı */
+            filter: brightness(1.1);
+        }
+        .my-photo {
+            width: 300px; /* Kendi resminin genişliği */
+            height: auto; /* Yükseklik otomatik ayarlanır */
+            border-radius: 50%; /* Yuvarlak hale getirir */
+            margin-top: 20px; /* Üstten boşluk */
+            display: block; /* Ortalamak için */
+            margin-left: auto; /* Ortalamak için */
+            margin-right: auto; /* Ortalamak için */
+        }
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#projeler">Projeler</a>
+        <a href="#sertifikalar">Sertifikalar</a>
+        <a href="#tecrubeler">Tecrübeler</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Merve'nin Portföyü</h1>
+        <p>Bilgisayar Mühendisliği Öğrencisi ve Yazılım Tutkunu</p>
+    </div>
+
+    <div class="section" id="hakkimda">
+        <h2>Hakkımda</h2>
+        <img src="vesika.jpg" alt="Benim Resmim" class="my-photo"> <!-- Kendi resminizi buraya ekleyin -->
+        <p>Merhaba, ben Merve. Bilgisayar mühendisliği öğrencisiyim. Teknolojiye olan ilgim ve analitik 
+        düşünme becerim beni yapay zekâ alanına yönlendirdi. Bugün, kariyerimi yapay zekâ, veri bilimi 
+        ve makine öğrenmesi alanlarında inşa etmeyi hedefleyen, öğrenmeye açık ve üretmeyi seven biri olarak 
+        yoluma devam ediyorum.
+
+        Veri ile çalışmayı, onun içindeki örüntüleri keşfetmeyi ve bu örüntülerden anlamlı sonuçlar 
+        çıkarmayı son derece heyecan verici buluyorum. Özellikle makine öğrenmesi, doğal dil işleme, derin öğrenme,görüntü işleme
+        gibi konular üzerinde yoğunlaşıyorum. Bu alandaki teorik bilgimi, çeşitli projelerde uygulamaya 
+        dökerek pekiştirmeye çalışıyorum.
+        
+        Teknik olarak en sık kullandığım programlama dili Python. Veri bilimi ve yapay zekâ projelerinde 
+        yaygın olarak tercih edilen kütüphanelerle aktif olarak çalışıyorum. Jupyter Notebook ortamında analizler yapıyor, model 
+        performanslarını görselleştiriyor ve çıktıları yorumlamaya özen gösteriyorum.
+        
+        Eğitim hayatım süresince yalnızca teknik beceriler değil, aynı zamanda proje yönetimi, takım 
+        çalışması ve zaman yönetimi gibi profesyonel yetkinliklerimi de geliştirme fırsatı buldum. Problem 
+        çözme odaklı yaklaşımım ve öğrenmeye olan ilgim sayesinde hem bireysel hem de ekip projelerinde 
+        sorumluluk alarak verimli çıktılar ürettim.
+        
+        Yapay zekâ teknolojilerinin geleceği şekillendireceğine inanıyor, bu dönüşümün bir parçası olma 
+        heyecanıyla öğrenmeye ve üretmeye devam ediyorum. </p>
+    </div>
+
+    <div class="section" id="projeler">
+        <h2>Projeler</h2>
+        <ul>
+            <li onclick="window.open('https://github.com/merveakbaba/Data_Science')">Data Science Projeleri</li>
+            <li onclick="window.open('https://github.com/merveakbaba/Calendar_Project')">AI Randevu Planlayıcı</li>
+            <li onclick="window.open('https://github.com/merveakbaba/Hi_Kod_Proje')">Hi Kod Veri Bilimi</li>
+            <li onclick="window.open('https://github.com/merveakbaba/Portfoy')">Portföy</li>
+        </ul>
+    </div>
+
+    <div class="section" id="sertifikalar">
+        <h2>Sertifikalar</h2>
+        <div class="certificate-container">
+            <img src="merve_akbaba.png" alt="Sertifika 1" class="certificate-image">
+            <img src="57504794450316.png" alt="Sertifika 2" class="certificate-image">
+            <img src="Ekran görüntüsü 2025-02-16 002815.png" alt="Sertifika 3" class="certificate-image">
+            <img src="Ekran görüntüsü 2025-02-16 002644.png" alt="Sertifika 4" class="certificate-image">
+            <img src="Ekran görüntüsü 2025-02-16 002658.png" alt="Sertifika 5" class="certificate-image">
+            <img src="Ekran görüntüsü 2025-02-16 002711.png" alt="Sertifika 6" class="certificate-image">
+            <img src="Ekran görüntüsü 2025-02-16 002724.png" alt="Sertifika 7" class="certificate-image">
+            <img src="Ekran görüntüsü 2025-02-16 002736.png" alt="Sertifika 8" class="certificate-image">
+            <img src="Ekran görüntüsü 2025-02-16 002747.png" alt="Sertifika 9" class="certificate-image">
+            <img src="Ekran görüntüsü 2025-02-16 002802.png" alt="Sertifika 10" class="certificate-image">
+            
+        </div>
+    </div>
+
+    <div class="section" id="tecrubeler">
+        <h2>Tecrübeler</h2>
+        <ul>
+            <li onclick="alert('ANS Soft - Yazılım Stajyeri (4 Ay)')">ANS Soft</li>
+            <li onclick="alert('Arskon Otomasyon (1 Ay)')">Arskon Otomasyon</li>
+        </ul>
+    </div>
+
+    <div class="section" id="iletisim">
+        <h2>İletişim</h2>
+        <p>Email: akbabamerve725@gmail.com</p>
+        <p>Telefon: 5454624115</p>
+        <!--<p><a href="Minimalist CV Resume (2)" target="_blank">CV'mi Görüntüle</a></p>-->
+        <p>LinkedIn: <a href="www.linkedin.com/in/merve-akbaba-270b3523b" target="_blank">LinkedIn</a></p>
+        <a href="cv.pdf" target="_blank">CV Görüntüle</a>
+    
+    </div>
+
+    <footer>
+        &copy; 2025 Merve'nin Portföyü. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
